@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-               echo 'deploy stage'
+               echo 'deploy sagar stage'
             }
         }
     }
