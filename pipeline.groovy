@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') { 
             steps {
-                git branch: 'main', url: 'https://github.com/ABHICLOUDS/student-ui.git'
+                git branch: 'main', url: 'https://github.com/sagarfast/student-ui.git'
                 sh '''ls
                   pwd'''
             }
