@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-               echo 'deploy sagar stage'
+               echo 'deploy poru stage'
             }
         }
     }
